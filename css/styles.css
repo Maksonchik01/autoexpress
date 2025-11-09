@@ -1,0 +1,221 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+  background: url("../img/Group 17.jpg");
+
+}
+
+.header-top{
+padding-top: 47px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-top-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #ffff;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    max-width: 762px;
+    margin-top: 105px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 72px;
+text-transform: uppercase;
+color: #ffff;
+}
+.header-text{
+    margin-top: 7px;
+    max-width: 690px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #ffff;
+}
+.header-subtext{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+color: #ffff;
+margin-top: 30px;
+}
+.header-btn{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 14px;
+text-transform: uppercase;
+color: #ffff;
+padding: 15px 55px;
+margin-top: 30px;
+background-color: #5A0D67;
+border: none;
+}
+.header-btn:hover {
+    background-color: #ffff;
+    color: #5A0D67;
+}
+.btn-list-box{
+
+}
+.header-social-list{
+    margin-top: 73px;
+    display: flex;
+    gap: 14px;
+    margin-bottom: 118px;
+}
+.header-box-right{
+position: relative;
+}
+.header-box-car-img{
+position: absolute;
+top: 338px;
+right: 0;
+}
+
+.service-title{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #21062A
+}
+.service-title::after{
+    display: inline-block;
+    vertical-align: middle; /* ??????????????????????????????????????????????????????????????????*/
+    margin-left: 10px;
+    content: "";
+    border-top: 3px solid #21062A;
+width: 80px;
+}
+.service-box{
+    display: flex;
+}
+.service-box-left-list{
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    margin-bottom: 50px;
+     margin-right: 96px;
+}
+.servive-left-item-title{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+color: #5A0D67;
+margin-bottom: 12px;
+}
+.service-left-item-text{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+color: #2C2B2B;
+max-width: 504px;
+}
+.why-part-1{
+    margin-bottom: 12px;
+}
+.service-btn-box{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+.service-btn{
+      font-family: var(--font-family);
+font-weight: 300;
+font-size: 14px;
+text-transform: uppercase;
+color: #ffff;
+padding: 15px 55px;
+background-color: #5A0D67;
+border: none;
+position: relative;
+}
+.service-btn:hover {
+    background-color: #ffff;
+    color: #5A0D67;
+}
+.service-btn::after{
+    content: "";
+    display: inline-block;
+    border: 1px solid #C4C4C4;
+width: 80px;
+height: 0px;
+position: absolute;
+top: 25px;
+right: -75px;
+}
+.service-btn-box-text{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 14px;
+text-transform: uppercase;
+color: #C4C4C4;
+}
+.service-box-right-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.service-right-list-item{
+    display: flex;
+    border: 1px solid #C4C4C4;
+padding: 10px 20px;
+box-sizing: border-box;
+}
+.item-2 {
+padding-right: 48px;
+}
+.item-3{
+    padding-right: 19px;
+}
+.item-4{
+    padding-right: 71px;
+}
+.item-5{
+    padding-right: 104px;
+}
+.item-6{
+    padding-right: 111px;
+}
+.service-right-list-item:hover{
+border: 2px solid #5A0D67;
+max-width: 500px;
+padding-right: 112px;
+}
+.service-item-text-num{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+text-transform: uppercase;
+color: #C4C4C4;
+transform: rotate(-90deg);
+margin-right: 40px;
+}
+.service-right-item-title{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 24px;
+color: #2C2B2B;
+}
+.service-right-item-text{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+color: #2C2B2B;
+}
