@@ -8,7 +8,6 @@ body {
 }
 .header {
   background: url("../img/Group 17.jpg");
-
 }
 
 .header-top{
@@ -300,6 +299,9 @@ margin-left: 10px;
     gap: 14px;
     margin-bottom: 50px;
 }
+.cars-item-img{
+    width: 100%;
+}
 .cars-list-item{
     border: 1px solid #C4C4C4;
 padding: 4px;
@@ -397,11 +399,14 @@ vertical-align: middle;
 }
 .footer-input-name{
     display: block;
+    margin: 0 auto;
     border: 1px solid #ffff;
-padding: 24px 178px;
+padding: 24px;
+max-width: 450px;
 background: #21062A;
 text-align: center;
 background: rgba(196, 196, 196, 0);
+margin-top: 12px;
 font-family: var(--font-family);
 font-weight: 300;
 font-size: 18px;
@@ -409,8 +414,10 @@ color: #C4C4C4;
 }
 .footer-input-phone{
     display: block;
+    margin: 0 auto;
     border: 1px solid #ffff;
 padding: 24px 178px;
+max-width: 450px;
 background: #21062A;
 text-align: center;
 background: rgba(196, 196, 196, 0);

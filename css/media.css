@@ -1,0 +1,148 @@
+@media (max-width: 1220px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .why-box-list{
+        padding-left: 100px;
+        padding-right: 200px;
+    }
+}
+@media (max-width: 1000px){
+    .why-box{
+        flex-direction: column;
+        
+    }
+    .why-box-left-img{
+       transform: rotate(90deg);
+       display: block;
+       margin: 0 auto;
+       margin-top: -100px;
+    }
+    .why-box-list{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-box{
+        flex-direction: column;
+    }
+    .footer-box-left{
+        margin: 0 auto;
+    }
+    .footer-title{
+        text-align: center;
+    }
+    .footer-list{
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+    }
+    .footer-input-name{
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+     .footer-input-phone{
+        margin: 0 auto;
+    }
+    .footer-bottom-list{
+        margin-right: 0;
+    }
+}
+@media (max-width: 860px) {
+    .header-box {
+        flex-direction: column;
+       
+    }
+ 
+.header-box-car-img{
+    position: static;
+  width: 100%;
+}
+.service-box{
+    flex-direction: column;
+    gap: 50px;
+}
+.service-title{
+    margin-top: 150px;
+}
+ .why-box-left-img{
+       display: none;
+    }
+   .why-box-list{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .why-box-item-text{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .cars-title{
+        text-align: center;
+    }
+    .cars-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+@media (max-width: 650px) {
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .footer-bottom-list{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .header-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header-box{
+        text-align: center;
+    }
+    .header-text{
+        margin-top: 30px;
+    }
+    .header-social-list{
+       justify-content: center;
+    }
+    .service-title{
+        text-align: center;
+    }
+    .service-box-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .service-box-left-list{
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .service-btn::after{
+    display: none;
+}
+.service-btn-box-text{
+    display: none;
+}
+.cars-title{
+    font-size: 28px;
+}
+}
+@media (max-width: 400px) {
+    .header-top-text{
+        font-size: 26px;
+    }
+    .header-title{
+        font-size: 40px;
+    }
+}
