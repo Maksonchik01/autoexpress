@@ -8,13 +8,22 @@
         padding-right: 200px;
     }
 }
+@media (max-width: 1080px) {
+    .service-title {
+        text-align: center;
+    }
+    .service-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+}
 @media (max-width: 1000px){
     .why-box{
         flex-direction: column;
-        
+        margin-top: 200px;
     }
     .why-box-left-img{
-       transform: rotate(90deg);
        display: block;
        margin: 0 auto;
        margin-top: -100px;
@@ -70,7 +79,8 @@
     margin-top: 150px;
 }
  .why-box-left-img{
-       display: none;
+       width: 100%;
+       max-width: 550px;
     }
    .why-box-list{
         flex-direction: column;
@@ -92,12 +102,23 @@
     }
 }
 @media (max-width: 650px) {
+    .footer-list{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
     .footer-bottom{
         flex-direction: column;
     }
     .footer-bottom-list{
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .footer-input-phone{
+        width: 100%;
+    }
+    .footer-input-name{
+        width: 100%;
     }
 }
 @media (max-width: 550px) {
@@ -136,6 +157,12 @@
 }
 .cars-title{
     font-size: 28px;
+}
+.footer-box-right-title{
+    font-size: 28px;
+}
+.footer-btn {
+    padding: 13px 20px;
 }
 }
 @media (max-width: 400px) {

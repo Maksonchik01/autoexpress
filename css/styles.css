@@ -93,25 +93,26 @@ right: 0;
 font-weight: 400;
 font-size: 36px;
 text-transform: uppercase;
-color: #21062A
+color: #21062A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .service-title::after{
-    display: inline-block;
-    vertical-align: middle; /* ??????????????????????????????????????????????????????????????????*/
-    margin-left: 10px;
     content: "";
     border-top: 3px solid #21062A;
 width: 80px;
 }
 .service-box{
     display: flex;
+    gap: 96px;
 }
 .service-box-left-list{
     display: flex;
     flex-direction: column;
     gap: 69px;
     margin-bottom: 50px;
-     margin-right: 96px;
+    
 }
 .servive-left-item-title{
     font-family: var(--font-family);
@@ -318,11 +319,8 @@ font-size: 18px;
 color: #2C2B2B;
 margin-top: 23px;
 margin-bottom: 5px;
-color: #2C2B2B;
 }
-.cars-item-title:hover{
- color: #ffff;
-}
+
 .cars-item-text{
     font-family: var(--font-family);
 font-weight: 300;
@@ -330,10 +328,12 @@ font-size: 18px;
 color: #2C2B2B;
 margin-bottom: 11px;
 }
-.cars-item-text:hover{
+.cars-list-item:hover .cars-item-text {
     color: #ffff;
 }
-
+.cars-list-item:hover .cars-item-title{
+    color: #ffff;
+}
 .footer-box{
     display: flex;
     justify-content: space-between;
@@ -401,8 +401,8 @@ vertical-align: middle;
     display: block;
     margin: 0 auto;
     border: 1px solid #ffff;
-padding: 24px;
-max-width: 450px;
+padding: 24px 0;
+width: 450px;
 background: #21062A;
 text-align: center;
 background: rgba(196, 196, 196, 0);
@@ -416,8 +416,8 @@ color: #C4C4C4;
     display: block;
     margin: 0 auto;
     border: 1px solid #ffff;
-padding: 24px 178px;
-max-width: 450px;
+padding: 24px 0;
+width: 450px;
 background: #21062A;
 text-align: center;
 background: rgba(196, 196, 196, 0);
